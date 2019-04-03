@@ -33,3 +33,12 @@ body {
     border: 2px solid #606060;
     border-radius: 5px;
 }
+
+h1, h2 {
+    text-align: center;
+}
+
+p {
+    text-indent: 10px;
+    text-align: justify;
+}
