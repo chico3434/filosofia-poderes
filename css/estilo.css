@@ -1,0 +1,35 @@
+body {
+    background-color: #cccccc;
+    font-family: sans-serif;
+    font-size: 13pt;
+}
+
+.menu {
+    position: relative;
+    list-style: none;
+    background-color: #909090;
+    padding: 10px;
+    border: 2px solid #909090;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.menu a li {
+    display: inline-block;
+}
+
+.menu a {
+    background-color: #909090;
+    color: #303030;
+    padding: 5px;
+    border: 2px solid #606060;
+    border-radius: 5px;
+}
+
+.menu a:hover {
+    background-color: #606060;
+    color: #909090;
+    transition: .5s;
+    border: 2px solid #606060;
+    border-radius: 5px;
+}
