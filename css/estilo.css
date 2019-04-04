@@ -39,6 +39,10 @@ h1, h2 {
 }
 
 p {
-    text-indent: 10px;
+    text-indent: .2in;
     text-align: justify;
+}
+
+.content {
+    padding: .2in;
 }
