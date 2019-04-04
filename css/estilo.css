@@ -49,6 +49,7 @@ p {
 
 @media only screen and (max-device-width: 450px) {
     .menu { 
+        position: absolute;
         width: 320px;
         right: 50%;
         left: 50%;
