@@ -46,3 +46,18 @@ p {
 .content {
     padding: .2in;
 }
+
+@media only screen and (max-device-width: 450px) {
+    .menu { 
+        width: 320px;
+        right: 50%;
+        left: 50%;
+        margin-left: -160px;
+        margin-right: -160px;
+    }
+
+    .menu a {
+        display: block;
+        margin-top: 5px;
+    }
+}
